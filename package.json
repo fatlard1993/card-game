@@ -1,0 +1,25 @@
+{
+  "name": "card-game",
+  "version": "1.0.0",
+  "description": "a web based card sim game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatlard1993/card-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatlard1993/card-game/issues"
+  },
+  "homepage": "https://github.com/fatlard1993/card-game#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.4",
+    "socketio": "^1.0.0"
+  }
+}
