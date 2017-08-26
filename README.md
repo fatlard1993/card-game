@@ -2,8 +2,8 @@
 a web based card sim game
 
 ## Setup
-run ``` npm install ```
+1. run ``` npm install ```
 
 ## Play
-[Start the server] run ``` node app ```
-[open client view] run ``` <server-IP>:8080 ```
+1. [Start the server] run ``` node app ```
+2. [open client view] run ``` <server-IP>:8080 ```
