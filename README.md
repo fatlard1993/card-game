@@ -6,4 +6,4 @@ run ``` npm install ```
 
 ## Play
 [Start the server] run ``` node app ```
-[open client view] run ``` <server-IP>:8080 ``
+[open client view] run ``` <server-IP>:8080 ```
