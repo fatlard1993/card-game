@@ -13,7 +13,7 @@ function Load(){
     Socket.init(function(){
       console.log('Socket connection established');
 
-      Content.textContent = 'loaded';
+      Content.textContent = 'loaded things and stuff';
     });
   });
 }
