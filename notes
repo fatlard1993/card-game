@@ -1,0 +1,11 @@
+//This is a place for notes and the like
+
+
+
+### TO-DO ###
+
+make login system
+  create login page
+  create backend support
+    create a method of tracking a users logged in state
+    send all not-logged in users to the login page
