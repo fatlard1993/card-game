@@ -9,3 +9,11 @@ make login system
   create backend support
     create a method of tracking a users logged in state
     send all not-logged in users to the login page
+    create a user "database" to store all user information
+make cards
+  make card "database" to hold all cards that exist
+make user pages
+  home
+  lobby
+  play game
+  deck management
