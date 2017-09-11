@@ -6,10 +6,20 @@
 
 make login system
   create login page
+    notify user of any errors logging in
+      basic notification system
   create backend support
     create a method of tracking a users logged in state
     send all not-logged in users to the login page
     create a user "database" to store all user information
+notification system
+  create notif JS file
+    queue
+    time out
+    click dismiss
+    custom dismiss action
+  create css file
+    top right position
 make cards
   make card "database" to hold all cards that exist
 make user pages
