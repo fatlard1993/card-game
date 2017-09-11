@@ -1,0 +1,10 @@
+body {
+  background-color: #333;
+}
+
+div#content {
+  width: 200px;
+  text-align: center;
+  margin: 5% auto;
+  color: #fff;
+}

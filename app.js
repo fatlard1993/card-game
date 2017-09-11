@@ -14,6 +14,12 @@ const HttpPort = 8080;
 
 app.use(Express.static('./public'));
 
+app.get('/', function(req, res, next){
+  console.log('rediredcing root to login');
+
+  res.redirect('/login');
+});
+
 app.get('*', function redirectTrailingWak(req, res, next){
   var queryStringIndex = req.originalUrl.indexOf('?');
   var path = req.originalUrl.slice(0, ((queryStringIndex >= 0) ? queryStringIndex : req.originalUrl.length));
@@ -30,6 +36,31 @@ app.get('*', function redirectTrailingWak(req, res, next){
 app.use(BodyParser.urlencoded({ extended: false }));
 app.use(BodyParser.json());
 app.use(CookieParser());
+
+
+app.post('/login', function(req, res, next){
+  console.log('Hit POST /login!', req.body);
+
+  next({
+    detail:'u suk'
+  });
+});
+
+app.get('/login', function(req, res, next){
+  console.log('Hit /login!');
+
+  res.sendFile(__dirname +'/public/login.html');
+});
+
+app.get('*', function(req, res, next){
+  //check cookie
+
+  //if cookie return next()
+
+  //else
+  console.log('redirecting to login...');
+  res.redirect('/login');
+});
 
 app.get('/test', function(req, res, next){
   console.log('Hit /test!');
